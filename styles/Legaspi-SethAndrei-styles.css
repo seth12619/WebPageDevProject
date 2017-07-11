@@ -1,0 +1,195 @@
+﻿#index #navigation ul li a.home {
+	background-image: url("images/home-active.png");
+}
+
+#conception #navigation #pageLinks li a.p1 {
+	background-image: url("images/conception-active.png");
+}
+
+#sao #navigation #pageLinks li a.p2 {
+	background-image: url("images/sao-active.png");
+}
+
+#nep #navigation #pageLinks li a.p3 {
+	background-image: url("images/nep-active.png");
+}
+
+#container {
+	font-family: Verdana;
+	background-repeat: no-repeat;
+	position: relative;
+	margin: auto;
+	padding: 0;
+	width: 1000px;
+}
+
+#header h1 {
+	text-indent: -99999px;
+	background-image: url("images/header.png");
+	height: 175px;
+	width: 1000px;
+}
+
+#header p {
+	text-indent: -99999px;
+}
+
+#navigation {
+	position: relative;
+}
+
+#navigation h2 {
+	display: none;
+}
+
+#navigation li {
+	list-style-type: none;
+}
+
+a {
+	display: inline-block;
+	text-indent: -99999px;
+	height: 35px;
+	width: 200px;
+}
+
+.home {
+	width: 250px;
+	margin-bottom: 10px;
+}
+
+.home:link {
+	background-image: url("images/Home.png");
+}
+
+.home:visited {
+
+}
+
+.home:hover {
+	background-image: url("images/home-hover.png");
+}
+
+.home:active {
+	background-image: url("images/home-active.png");
+}
+
+#pageLinksB {
+	margin: 0;
+	background-image: url("images/Table_Area.png");
+	background-repeat: no-repeat;
+	height: 380px;
+	width: 250px;
+	float: left;
+}
+
+#pageLinks {
+	margin: 0;
+	padding: 0;
+	margin-left: 25px;
+	padding-top: 20px;
+}
+
+.p1 {
+	background-repeat: no-repeat;
+	padding: 0;
+	padding-top: 10px;
+}
+
+.p1:link {
+	background-image: url("images/conception.png");
+}
+
+.p1:visited {
+
+}
+
+.p1:hover {
+	background-image: url("images/conception-hover.png");
+}
+
+.p1:active {
+	background-image: url("images/conception-active.png");
+}
+
+.p2 {
+	background-repeat: no-repeat;
+	padding: 0;
+	padding-top: 10px;
+}
+
+.p2:link {
+	background-image: url("images/SAO.png");
+}
+
+.p2:visited {
+
+}
+
+.p2:hover {
+	background-image: url("images/SAO-hover.png");
+}
+
+.p2:active {
+	background-image: url("images/sao-active.png");
+}
+
+.p3 {
+	background-repeat: no-repeat;
+	padding: 0;
+	padding-top: 10px;
+}
+
+.p3:link {
+	background-image: url("images/nep.png");
+}
+
+.p3:visited {
+
+}
+
+.p3:hover {
+	background-image: url("images/nep-hover.png");
+}
+
+.p3:active {
+	background-image: url("images/nep-active.png");
+}
+
+#seal {
+	text-indent: -9999px;
+	background-image: url("images/seal.png");
+	height: 216px;
+	width: 250px;
+	padding: 0;
+	margin: 0;
+	margin-left: -25px;
+}
+
+#content {
+	padding: 0;
+	margin: 0;
+}
+
+#content h2 {
+	text-indent: 10px;
+}
+
+#content img {
+	margin-left: 175px;
+}
+
+#content p {
+	margin-left: 300px;
+}
+
+#footer {
+	clear: left;
+	margin-top: 60px;
+	border-top: dotted black 1px;
+	background-image: url("images/Footer.png");
+	text-align: center;
+	width: 1000px;
+	height: 50px;
+	background-repeat: no-repeat;
+}
